@@ -1,5 +1,5 @@
 import axios from "axios";
-const BaseURL='http://localhost:3001/';
+const BaseURL='https://b4-zptw.onrender.com/';
 
 const instance=axios.create({
   baseURL:'http://localhost:3001/',
@@ -7,7 +7,7 @@ const instance=axios.create({
 })
 const userRequest=(method,name,url,data)=>{
   debugger;
-  const URL=('http://localhost:3001/'+url)
+  const URL=('https://b4-zptw.onrender.com/'+url)
   debugger;
   axios({
     method: method,
